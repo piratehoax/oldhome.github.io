@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="images/icons8-pirate-100 (1).png" type="image/icon type">
+    <title>Pirate Hoax</title>
+</head>
+<body>
+  <div class="w-full h-full"
+    style="background-image: url('images/1.jpg')">
+    <header class="text-white bg-black bg-opacity-50 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a href = "http://127.0.0.1:5501/home.html" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <img class="w-12 h-12 object-cover " src="images/icons8-pirate-100 (1).png" alt="blog">
+            <span class="ml-3 text-xl">Pirate H04X</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+            <a href = "http://127.0.0.1:5501/movies.html"class="mr-5 hover:text-gray-400">Movies</a>
+            <a href = "http://127.0.0.1:5501/tv-series.html"class="mr-5 hover:text-gray-400">TV Series</a>
+            
+          </nav>
+          <button class="inline-flex items-center bg-red-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 rounded text-base mt-4 md:mt-0"><a href = "http://127.0.0.1:5501/sign.html">Register</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <section class="text-gray-400 bg-black bg-opacity-50 h-screen body-font">
+        <div class="container px-5 py-32 mx-auto">
+          <div class="flex flex-col text-center w-full mb-32">
+            <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-white">Sign Up <span class="auto-input"></span></h1>
+            <h6 class="lg:w-2/3 mx-auto leading-relaxed text-base">Download Free Movies and TV series through MEGA</h6>
+          </div>
+          <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:px-0 items-end sm:space-x-4 sm:space-y-0 space-y-4">
+            <div class="relative sm:mb-0 flex-grow w-full">
+              <label for="full-name" class="leading-7 text-sm text-gray-400">Email</label>
+              <input type="email" id="email" name="full-name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:ring-2 focus:ring-red-900 focus:bg-transparent text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative sm:mb-0 flex-grow w-full">
+              <label for="email" class="leading-7 text-sm text-gray-400">Password</label>
+              <input type="password" id="password" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:ring-2 focus:ring-red-900 focus:bg-transparent text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <button class="inline-flex item-center h-10 bg-red-600 border-0 py-2 px-5 focus:outline-none hover:bg-gray-800 rounded text-base mt-2 md:mt-0">Sign</button>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+          <script>
+            var typed = new Typed(".auto-input", {
+              strings : ["and get access to everything"],
+              typeSpeed: 100,
+              backSpeed: 100,
+              loop: true
+            })
+          </script>
+      </div>
+      </section>
+  </div>
+</body>
+</html>
